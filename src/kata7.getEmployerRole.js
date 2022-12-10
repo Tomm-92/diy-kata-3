@@ -1,5 +1,8 @@
 const getEmployerRole = (employeeName, employees) => {
-return employeeName;
+  const search = employees.filter((y) => y.name === employeeName);
+  return String(search.map((x) => x.role));
 };
+
+// return roles = employees.map(x => x.role);
 
 module.exports = getEmployerRole;
