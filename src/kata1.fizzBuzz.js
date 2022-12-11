@@ -15,3 +15,10 @@ const fizzBuzz = (number) => {
 };
 
 module.exports = fizzBuzz;
+
+/* CODE EXPLANATIONS 
+
+Looking for multiples of 3 and 5 therefore use the modulo operator which returns the reaminder
+if the number is multiple then the remainder will be 0
+
+Divisible by 3 and not divisble by 5 returns fizz and so on */
