@@ -4,8 +4,7 @@
 }; */
 
 const getEmployerRole = (employeeName, employees) => {
-  const employee = employees.find((object) => object.name === employeeName);
-  return employee.role;
+  return employee = employees.find((object) => object.name === employeeName).role
 };
 
 

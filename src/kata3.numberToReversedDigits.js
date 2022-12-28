@@ -1,12 +1,12 @@
+const numberToReversedDigits = (number) =>
+  String(number).split("").reverse().map(Number);
+
+/* 
 const numberToReversedDigits = (number) => {
   const reverse = String(number).split("").reverse();
-  return reverse.map(rev => Number(rev)); 
-
+  return reverse.map((rev) => Number(rev));
 };
-
-/* const numberToReversedDigits = (number) => {
-return String(number).split("").reverse().map(Number);
-}; */
+*/
 
 /* CODE EXPLANATION 
 Starting with a string of numbers and want to return an array of those same numbers but reversed 
